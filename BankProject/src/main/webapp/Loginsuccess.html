@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log In Success.!</title>
+	<style>
+		body {
+			background-color: #fafafa;
+			font-family: Arial, sans-serif;
+		}
+
+		.container {
+			background-color: #fff;
+			margin: 50px auto;
+			padding: 20px;
+			max-width: 350px;
+			border-radius: 5px;
+			box-shadow: 0 1px 5px rgba(0,0,0,.0975);
+			text-align: center;
+		}
+
+		h1 {
+			margin: 0 0 20px;
+			font-size: 26px;
+			font-weight: 700;
+			color: #1877f2;
+			letter-spacing: -1px;
+			line-height: 32px;
+		}
+
+		p {
+			margin: 0 0 20px;
+			font-size: 14px;
+			color: #8e8e8e;
+		}
+
+		form input[type="text"], form input[type="number"] {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 10px;
+			border: none;
+			border-radius: 3px;
+			background-color: #f0f0f0;
+			font-size: 14px;
+			color: #333;
+		}
+
+		form input[type="submit"] {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			background-color:black;
+			border: none;
+			border-radius: 3px;
+			font-size: 14px;
+			font-weight: 600;
+			color: #fff;
+			cursor: pointer;
+		}
+
+		form input[type="submit"]:hover {
+			background-color: rgb(255, 0, 0);
+		}
+
+		.actions {
+			display: flex;
+			flex-direction: column;
+			margin-top: 30px;
+			text-align: left;
+		}
+
+		.actions a {
+			display: inline-block;
+			margin-bottom: 10px;
+			color: #8e8e8e;
+			text-decoration: none;
+			font-size: 12px;
+			font-weight: 600;
+		}
+
+		.actions a:hover {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Log In Success.! </h1>
+		<p>Please select an action:</p>
+			<form action="CheckBalance" method="post">
+			<input type="submit" value="Check Balance"><br>
+			</form>
+			<form action="Withdraw" method="post">
+			<input type="submit" value="Deposit Money"><br>
+			</form>
+			<form>
+			<input type="submit" value="withdraw Money"><br>
+			</form>
+			<form>
+			<input type="submit" value="Request for Atm"><br>
+			</form>
+			<form>
+			<input type="submit" value="Request For New Pin"><br>
+			</form>
+			<form action="returnlogin" method="post">
+			<input type="submit" value="Return To LogIn Page"><br>
+			</form>
+		<div class="actions">
+		</div>
+	</div>
+	
+</body>
+</html>
